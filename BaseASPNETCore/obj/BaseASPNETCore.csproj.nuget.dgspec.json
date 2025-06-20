@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\java\\BaseASPNETCore\\BaseASPNETCore\\BaseASPNETCore.csproj": {}
+    "D:\\java\\BaseASPNETCoree\\BaseASPNETCore\\BaseASPNETCore.csproj": {}
   },
   "projects": {
-    "D:\\java\\BaseASPNETCore\\BaseASPNETCore\\BaseASPNETCore.csproj": {
+    "D:\\java\\BaseASPNETCoree\\BaseASPNETCore\\BaseASPNETCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\java\\BaseASPNETCore\\BaseASPNETCore\\BaseASPNETCore.csproj",
+        "projectUniqueName": "D:\\java\\BaseASPNETCoree\\BaseASPNETCore\\BaseASPNETCore.csproj",
         "projectName": "BaseASPNETCore",
-        "projectPath": "D:\\java\\BaseASPNETCore\\BaseASPNETCore\\BaseASPNETCore.csproj",
+        "projectPath": "D:\\java\\BaseASPNETCoree\\BaseASPNETCore\\BaseASPNETCore.csproj",
         "packagesPath": "C:\\Users\\USUARIO\\.nuget\\packages\\",
-        "outputPath": "D:\\java\\BaseASPNETCore\\BaseASPNETCore\\obj\\",
+        "outputPath": "D:\\java\\BaseASPNETCoree\\BaseASPNETCore\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -86,11 +86,19 @@
               "target": "Package",
               "version": "[9.0.6, )"
             },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
             "MySql.EntityFrameworkCore": {
               "target": "Package",
               "version": "[9.0.3, )"
             },
             "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[9.0.1, )"
+            },
+            "Swashbuckle.AspNetCore.Annotations": {
               "target": "Package",
               "version": "[9.0.1, )"
             }
