@@ -27,8 +27,4 @@
         <PackageReference Include="Swashbuckle.AspNetCore.Annotations" Version="9.0.1" />
     </ItemGroup>
 
-    <ItemGroup>
-      <Folder Include="Shared\Infrastructure\Persistence\EFC\Configuration\Extensions\" />
-    </ItemGroup>
-
 </Project>

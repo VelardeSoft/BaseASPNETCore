@@ -1,4 +1,5 @@
-﻿using EntityFrameworkCore.CreatedUpdatedDate.Extensions;
+﻿using BaseASPNETCore.Shared.Infrastructure.Persistence.EFC.Configuration.Extensions;
+using EntityFrameworkCore.CreatedUpdatedDate.Extensions;
 using Microsoft.EntityFrameworkCore;
 
 namespace BaseASPNETCore.Shared.Infrastructure.Persistence.EFC.Configuration;
@@ -19,5 +20,7 @@ public class AppDbContext(DbContextOptions options) : DbContext(options)
         builder.Entity<User.Domain.Model.Aggregates.User>().Property(x => x.Id).IsRequired().ValueGeneratedOnAdd(); 
         builder.Entity<User.Domain.Model.Aggregates.User>().Property(x => x.Email).IsRequired().HasMaxLength(256);
         builder.Entity<User.Domain.Model.Aggregates.User>().Property(x => x.Name).IsRequired().HasMaxLength(256);
+        
+        builder.UseSnakeCaseNamingConvention();
     }
 }
